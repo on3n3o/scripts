@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Set apropriate switches for chromium
+# https://peter.sh/experiments/chromium-command-line-switches/
+
+chromium-browser $1 \
+	--start-fullscreen \
+	--disable-features=TranslateUI \
+	--no-default-browser-check &
